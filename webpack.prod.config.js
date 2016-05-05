@@ -1,7 +1,6 @@
 var webpack = require('webpack'),
     path    = require('path'),
-    HtmlWebpackPlugin = require('html-webpack-plugin'),
-    ExtractTextPlugin = require('extract-text-webpack-plugin');
+    HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var PROJECT_BASE = __dirname;
 
