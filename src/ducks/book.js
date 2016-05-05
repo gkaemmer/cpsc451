@@ -26,11 +26,10 @@ export function open(group, image) {
   };
 }
 
-export function close(group, image) {
+export function close(group) {
   return {
     type: CLOSE,
-    group,
-    image
+    group
   };
 }
 

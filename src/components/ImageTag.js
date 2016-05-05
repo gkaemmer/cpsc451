@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 import Icon from 'react-fa';
 import Description from './Description';
 import '../css/image.css';
+import { imageHeight } from './Image';
 
 const containerStyle = {
   float: 'left',
   padding: '0 20px',
   boxSizing: 'border-box',
-  height: '200px',
+  height: imageHeight,
   position: 'relative'
 }
 
 const wrapperStyle = {
   position: 'relative',
   overflow: 'hidden',
-  height: '200px'
+  height: imageHeight
 }
 
 const imgStyle = {

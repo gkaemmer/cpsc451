@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from 'react'
 import { connect } from 'react-redux'
 import Book from './Book'
 
+export const imageHeight = 150;
+
 export default class Image extends Component {
   static propTypes = {
     src: PropTypes.string.isRequired

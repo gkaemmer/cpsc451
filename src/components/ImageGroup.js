@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { open, close, selectExpanded } from '../ducks/book'
 import ImageTagGroup from './ImageTagGroup'
 import ImageTag from './ImageTag'
+import CloseButton from './CloseButton'
 
 function mapStateToProps(state, ownProps) {
   return {
@@ -31,7 +32,7 @@ export default class ImageGroup extends Component {
         { Children.map(children, (image, key) => (
           <ImageTag group={id} key={key} image={image} expanded={expanded == key}
             expandable={!!image.props.children} width={width}
-            onClick={() => (expanded == key ? close(id, key) : open(id, key))} />
+            onClick={() => (expanded == key ? close(id) : open(id, key))} />
         ))}
         </ImageTagGroup>
         {/* Content */}
@@ -39,6 +40,9 @@ export default class ImageGroup extends Component {
           { expanded > -1 ? cloneElement(Children.toArray(children)[expanded], { key: expanded })
             : null }
         </ReactCSSTransitionGroup>
+        { expanded > -1 ?
+          <CloseButton onClick={() => close(id)}/>
+          : null }
       </div>
     );
   }

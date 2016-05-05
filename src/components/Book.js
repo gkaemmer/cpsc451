@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import Title from './Title';
 
 const style = {
-  borderWidth: '2px 0 0 2px',
+  // borderWidth: '2px 0 0 2px',
   borderStyle: 'solid',
   margin: '0 -40px',
   paddingTop: 40,

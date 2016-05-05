@@ -4,7 +4,9 @@ const style = {
   fontWeight: 'bold',
   fontSize: '32px',
   lineHeight: '1.4em',
-  marginBottom: '0.4em'
+  marginBottom: '0.4em',
+  paddingBottom: '0.4em',
+  borderBottom: '1px solid #ddd'
 }
 
 export default class Title extends Component {

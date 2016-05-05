@@ -24,6 +24,8 @@ export default class Root extends Component {
           <Credit>Designed and built by <b>Graham Kaemmer</b></Credit>
           <Book name='Wright Brothers'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad earum architecto, animi a voluptatem quae laborum facere. Est, qui culpa cumque quidem. Facere sunt numquam tempore, nam voluptas? Eius, laboriosam!
+            <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, corporis repudiandae blanditiis eveniet amet rerum dolor quaerat possimus recusandae sed praesentium porro vel beatae. Quas porro deleniti sed ut culpa.
             <ImageGroup id='group1'>
               <Image src={wright1} name="First Flight" description="On December 17, 1903, Wilbur Wright became the first person to successfully fly a heavier-than-air machine.">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum obcaecati ducimus quia molestias quos velit inventore ipsam maxime. Ad obcaecati mollitia explicabo dolorum, asperiores ea neque temporibus voluptatibus voluptatum repellendus.

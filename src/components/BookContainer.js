@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
 const style = {
+  margin: '0 auto',
+  width: '80%',
+  boxSizing: 'border-box',
   padding: '0 40px',
   fontFamily: 'Lato, Helvetica, Arial, sans-serif',
-  fontSize: '14px',
-  lineHeight: '1.4em'
+  fontSize: '18px',
+  lineHeight: '1.6em'
 }
 
 export default class BookContainer extends Component {
