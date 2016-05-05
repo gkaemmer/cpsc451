@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=3456 node --harmony bin/webpack-dev-server"
+    "start": "PORT=3456 node --harmony bin/webpack-dev-server",
+    "build": "webpack -C webpack.prod.config.js"
   },
   "author": "Graham <graham.kaemmer@gmail.com> (http://gkaemmer.com)",
   "license": "MIT",
