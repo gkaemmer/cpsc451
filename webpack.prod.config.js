@@ -36,7 +36,7 @@ var webpackConfig = {
       filename : 'index.html',
       inject   : 'body'
     }),
-    new webpack.optimize.CommonsChunkPlugin('vendor', '[name].js')
+    new webpack.optimize.CommonsChunkPlugin('vendor', '[name]-[hash].js')
   ],
   resolve : {
     extensions : ['', '.js', '.jsx']
