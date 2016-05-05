@@ -1,0 +1,12 @@
+.image-wrapper .description {
+  bottom: -100px !important;
+  height: 0 !important;
+  opacity: 0;
+  transition: bottom 0.2s, height 0.2s, opacity 0.4s;
+}
+
+.image-wrapper:hover .description {
+  bottom: 0px !important;
+  height: 100px !important;
+  opacity: 1;
+}

@@ -1,0 +1,27 @@
+.book-enter {
+  max-height: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  overflow: hidden;
+}
+
+.book-enter.book-enter-active {
+  max-height: 600px;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  transition: max-height 0.5s, padding 0.5s;
+}
+
+.book-leave {
+  max-height: 600px;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  overflow: hidden;
+}
+
+.book-leave.book-leave-active {
+  max-height: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  transition: max-height 0.5s, padding 0.5s;
+}
