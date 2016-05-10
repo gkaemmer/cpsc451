@@ -1713,7 +1713,7 @@ webpackJsonp([1],[
 	                  _react2['default'].createElement(_Image2['default'], { src: _imagesDaytonJpg2['default'], description: 'The home where Orville and Wilbur Wright grew up in Dayton, Ohio' })
 	                )
 	              ),
-	              _react2['default'].createElement(_Image2['default'], { src: _imagesWright3Jpg2['default'], description: 'This is a description' })
+	              _react2['default'].createElement(_Image2['default'], { src: _imagesWright3Jpg2['default'], description: 'The Wright Flyer I was the first flying machine.' })
 	            )
 	          )
 	        )
