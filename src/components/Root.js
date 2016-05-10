@@ -54,7 +54,7 @@ export default class Root extends Component {
                   <Image src={dayton} description="The home where Orville and Wilbur Wright grew up in Dayton, Ohio"/>
                 </ImageGroup>
               </Image>
-              <Image src={wright3} description="This is a description" />
+              <Image src={wright3} description="The Wright Flyer I was the first flying machine." />
             </ImageGroup>
           </Book>
         </BookContainer>
